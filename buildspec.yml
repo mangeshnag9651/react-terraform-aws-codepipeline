@@ -10,7 +10,7 @@ phases:
   pre_build:
     commands:
       - echo Installing dependencies...
-      - sudo apt install yarn 
+      - sudo apt install yarn -y
   build:
     commands:
       - echo Building...
